@@ -31,4 +31,4 @@ In this visualization we display the energy savings for one weekday and one week
   <img width="500" height="300" src="https://user-images.githubusercontent.com/20330371/38008759-14e7798c-326e-11e8-9b3a-0221b7850488.PNG">
 </p>
 
-* A video of all these visualizations working in a standalone browser window can be found [here](https://youtu.be/Ht-2R1X4y58).
+* A video of all these visualizations working in a standalone browser window can be found [here](https://youtu.be/7pv4N06TfDE).
