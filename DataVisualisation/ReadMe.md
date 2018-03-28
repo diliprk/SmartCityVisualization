@@ -13,22 +13,22 @@ The following are the visualizations built for this project using Bokeh:
 In this visualization we display the hourly vehicle count of a particular street on a map.
 
 <p align="center">
-  <img width="300" height="300" src="https://user-images.githubusercontent.com/20330371/37703368-76f6010a-2d1b-11e8-87da-8a3cc0feccc9.jpg">
+  <img width="300" height="300" src="https://user-images.githubusercontent.com/20330371/38008673-8f134480-326d-11e8-93c5-f09b5fb24989.PNG">
 </p>
 
 
 #### Traffic Distribution:
-In this visualization we display the hourly vehicle count distribution as a bar chart with an overlaid Line plot. The particular hours in the night where Street Lights can be dimmed are also marked in this plot as RED and GREEN dots.
+In this visualization we display the hourly vehicle count distribution as a bar chart with an overlaid Line plot. The particular hours in the night where Street Lights can be dimmed are also marked in this plot as <font color='#ea2539'>RED</font> and <font color='#48ad1d'>GREEN</font> dots.
 
-<p align="center">
-  <img width="300" height="300" src="https://user-images.githubusercontent.com/20330371/37703368-76f6010a-2d1b-11e8-87da-8a3cc0feccc9.jpg">
+<p align="center">    
+  <img width="500" height="300" src="https://user-images.githubusercontent.com/20330371/38008688-a7d239d6-326d-11e8-9ced-a297e0543b6c.PNG">
 </p>
 
 #### Energy Savings:
 In this visualization we display the energy savings for one weekday and one weekend where Street Lights are Dimmed during certain hours compared to a Normal Scenario where street lights function at FULL Brightness during the entire night.
 
 <p align="center">
-  <img width="300" height="300" src="https://user-images.githubusercontent.com/20330371/37703368-76f6010a-2d1b-11e8-87da-8a3cc0feccc9.jpg">
+  <img width="500" height="300" src="https://user-images.githubusercontent.com/20330371/38008759-14e7798c-326e-11e8-9b3a-0221b7850488.PNG">
 </p>
 
-* A video of all these visualizations working in a standalone browser window can be found [here](https://www.dropbox.com/s/9b4yx1137x2kzsx/BokehMapViz.mp4?dl=0).
+* A video of all these visualizations working in a standalone browser window can be found [here](https://youtu.be/Ht-2R1X4y58).
