@@ -13,7 +13,7 @@ The following are the visualizations built for this project using Bokeh:
 In this visualization we display the hourly vehicle count of a particular street on a map.
 
 <p align="center">
-  <img width="300" height="300" src="https://user-images.githubusercontent.com/20330371/38008673-8f134480-326d-11e8-93c5-f09b5fb24989.PNG">
+  <img width="450" height="300" src="https://user-images.githubusercontent.com/20330371/38013194-e569c548-3281-11e8-8c63-121e7e542d6e.PNG">
 </p>
 
 
