@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - anaconda-fusion
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - bokeh
