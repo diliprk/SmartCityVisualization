@@ -6,7 +6,6 @@
 
 All the visualizations that are in the jupyter notebook has also been made available as standalone external visualizations which can be started by calling the python script in a bokeh serve application (Example `bokeh serve --show MapViz.py`) in Anaconda Prompt. As before you have to navigate to the correct folder and activate your custom or root conda environment where the required packages are installed.
 
-
 The following are the visualizations built for this project using Bokeh:
 
 #### Map Based Visualization:
@@ -31,4 +30,4 @@ In this visualization we display the energy savings for one weekday and one week
   <img width="500" height="300" src="https://user-images.githubusercontent.com/20330371/38008759-14e7798c-326e-11e8-9b3a-0221b7850488.PNG">
 </p>
 
-*A video of all these visualizations working in a standalone browser window can be found [here](https://youtu.be/7pv4N06TfDE).
+*A video of all these visualizations working in a standalone browser window can be found [here](https://youtu.be/XFqGO7xlURQ).
