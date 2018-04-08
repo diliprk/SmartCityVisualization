@@ -3,6 +3,5 @@ jupyter labextension install jupyterlab_bokeh
 jupyter nbextension enable --py widgetsnbextension
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
-jupyter trust DataVisualisation/Traffic&EnergySavings.ipynb
-
+jupyter trust DataVisualisation/TrafficEnergySavings.ipynb
 #EOF

@@ -2,7 +2,7 @@
 [Bokeh](https://bokeh.pydata.org/en/latest/) was used  extensively to build all the visualizations for this project. It is recommended to have [Anaconda installed](https://conda.io/docs/user-guide/install/index.html) to load the jupyter notebook and other python scripts in this folder. Thereafter,
 1. Open *Anaconda Prompt* or Terminal.
 2. Install the required packages using `conda install bokeh pandas` directly into the root (or base) environment or in your [custom environment](https://conda.io/docs/user-guide/getting-started.html#managing-environments). 
-3. Change the Directory to the folder where you have downloaded this repository and then launch Jupyter Notebook by typing `jupyter notebook`. After that you can open the `Traffic&EnergySavings.ipynb` in your Web Browser.
+3. Change the Directory to the folder where you have downloaded this repository and then launch Jupyter Notebook by typing `jupyter notebook`. After that you can open the `TrafficEnergySavings.ipynb` in your Web Browser.
 
 All the visualizations that are in the jupyter notebook has also been made available as standalone external visualizations which can be started by calling the python script in a bokeh serve application (Example `bokeh serve --show MapViz.py`) in Anaconda Prompt. As before you have to navigate to the correct folder and activate your custom or root conda environment where the required packages are installed.
 
