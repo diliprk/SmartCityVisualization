@@ -1,10 +1,11 @@
 ### Data Visualization:
-[Bokeh](https://bokeh.pydata.org/en/latest/) was used  extensively to build all the visualizations for this project. It is recommended to have [Anaconda installed](https://conda.io/docs/user-guide/install/index.html) to load the `TrafficEnergySavings.ipynb` jupyter notebook and the python script in this folder. Thereafter,
+[Bokeh](https://bokeh.pydata.org/en/latest/) was used  extensively to build all the visualizations for this project. It is recommended to have [Anaconda installed](https://conda.io/docs/user-guide/install/index.html) to load the `TrafficEnergySavings.ipynb` jupyter notebook and the Bokeh data visualization dashboard (`VTASSL.py`) in this Git folder. Thereafter,
 1. Open *Anaconda Prompt* or Terminal.
 2. Install the required packages using `conda install bokeh pandas` directly into the root (or base) environment or in your [custom environment](https://conda.io/docs/user-guide/getting-started.html#managing-environments). 
 3. Change the Directory to the folder where you have downloaded this repository and then launch Jupyter Notebook by typing `jupyter notebook`. After that you can open the `TrafficEnergySavings.ipynb` in your Web Browser.
+4. To load the Bokeh Data Visualization dashboard (`VTASSL.py`) you have to call a *bokeh server* application by typing the command `bokeh serve --show VTASSL.py`
 
-All the visualizations that are in the jupyter notebook has also been made available as standalone external visualizations and uploaded in a heroku server. You can see and interact with the visualisations in this link below:
+The Bokeh data visualization dashboard has also been published in a heroku server. You can see and interact with the visualisations online  in this link below:
 http://smartstreetlighting.herokuapp.com/
 
 The following are the visualizations built for this project using Bokeh:
@@ -31,4 +32,4 @@ In this visualization we display the energy savings for one weekday and one week
   <img width="500" height="300" src="https://user-images.githubusercontent.com/20330371/38008759-14e7798c-326e-11e8-9b3a-0221b7850488.PNG">
 </p>
 
-*A video of all these visualizations working in a standalone browser window can be found [here](https://youtu.be/XFqGO7xlURQ).
+* A video of all these visualizations working in a standalone browser window can be found [here](https://youtu.be/XFqGO7xlURQ).
