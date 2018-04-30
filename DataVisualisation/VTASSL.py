@@ -24,18 +24,18 @@ date_val = date_val.strftime('%Y-%m-%d')
 intro_text = Div(text="""
         <h3 style="text-align:center">Vehicle Traffic Analysis for Smart Street Lighting</h3><br>
         <p>This is a data dashboard created using <a href="https://bokeh.pydata.org/en/latest/" target="_blank">Bokeh</a>.<br>
-        On the first tab titled <code>MapVizVehicleTraffic</code>  you can see the
+        <ul><li>On the first tab titled <code>MapVizVehicleTraffic</code>  you can see the
         vehicle traffic on a map which changes when dragging the hour slider or
-        when selecting a new date from the data picker.<br>
-        On the second tab  titled <code>Traffic & Energy</code> you can see the
-        vehicle traffic data distribution as a bar plot with an overlaid line plot.
-        We can also see the <em>Street Light State</em> in the night time
+        when selecting a new date from the Date picker.</li>
+        <li>On the second tab  titled <code>Traffic & Energy</code> you can see the
+        vehicle traffic data distribution as a bar plot with an overlaid line plot.</li>
+        <li>We can also see the <em>Street Light State</em> in the night time
         traffic hours indicated as <font style="color:Tomato">RED</font>
         dots for those hours in the night where we run the street lights at Full
         Brightness because of heavy vehicle traffic and <font style="color:MediumSeaGreen">GREEN</font>
         dots for those hours in the night where we can DIM the street lights
         because of low vehicle traffic. Finally we can also see the Energy Savings
-        resulting from the dimming the street lights.</p>
+        resulting from the dimming the street lights.</li></ul></p>
     """)
 para1 = Div(width = 960,text="""<h3>Hourly Vehicle Traffic - Street View</h3><br>
 See hourly vehicle count change by dragging the hour slider for date selected.<br>
